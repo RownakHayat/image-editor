@@ -1,0 +1,51 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #e6e6fa;
+}
+td {
+  text-align: center;
+}
+.pdfIcon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.action-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.uploadImage {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.action {
+  position: relative;
+}
+.removeIcon {
+  position: absolute;
+  color: white;
+  border: none;
+  cursor: pointer;
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  color: red;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #cbbcbc;
+}
